@@ -1,3 +1,4 @@
+console.log('vijay');
 var c=document.getElementById('valu');
 var disp=document.getElementById('disp');
 // dis.innerText=33;
