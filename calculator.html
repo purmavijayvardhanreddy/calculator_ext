@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        .box{
+            /* width:30px;
+            height: 30px; */
+            border-radius: 8px;
+            margin-top: 0%;
+            border: 1px;
+            width: 85px;
+            height: 80px;
+            background-color:darkgrey;
+            font-size: large;
+        }
+        .b1{
+            margin: 1%;
+            
+        }
+        .rdiv{
+            margin:0%;
+            /* background-color: azure; */
+            /* padding: 50px; */
+        }
+        .disp{
+            height: 50px;
+            background-color: white;
+            border-radius: 10px;
+            text-align: right;
+            border: 1px;
+            width: 365px;
+        }
+    </style>
+   
+</head>
+<body >
+    <div>
+    <div style="display: grid;  justify-content: center; " class="container">
+        <button id="disp" class="disp">
+        </button>
+    <div id="valu">
+        <div  class="rdiv" style="display:flex;">
+            <div id="one"class="b1">
+                <button value="1" class="box">1</button>
+            </div>
+            <div  class="b1">
+                <button value="2" class="box">2</button>
+            </div>
+            <div class="b1">
+                <button value="3" class="box">3</button>
+            </div>
+            <div class="b1">
+                <button value="AC" class="box">AC</button>
+            </div>
+        </div>
+        <div  class="" style="display:flex;">
+            <div class="b1" >
+                <button value="4" class="box">4</button>
+            </div>
+            <div class="b1">
+                <button value="5" class="box">5</button>
+            </div>
+            <div class="b1">
+                <button value="6" class="box">6</button>
+            </div>
+            <div class="b1">
+                <button value="B" class="box">B</button>
+            </div>
+        </div>
+        <div  class="" style="display:flex;">
+            <div class="b1" >
+                <button value="7" class="box">7</button>
+            </div>
+            <div class="b1">
+                <button value="8" class="box">8</button>
+            </div>
+            <div class="b1">
+                <button value="9" class="box">9</button>
+            </div>
+            <div class="b1">
+                <button value="*" class="box">*</button>
+            </div>
+        </div>
+        <div  class="" style="display:flex;">
+            <div class="b1" >
+                <button value="." class="box">.</button>
+            </div>
+            <div class="b1">
+                <button value="0" class="box">0</button>
+            </div>
+            <div class="b1">
+                <button value="/" class="box">/</button>
+            </div>
+            <div class="b1">
+                <button value="=" class="box">=</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+    <script src="/javascript/calculator.js"></script>
+</body>
+</html>
