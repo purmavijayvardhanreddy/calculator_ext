@@ -1,3 +1,6 @@
 # calculator_ext
 ## Description
-#### Click Here to vist [
+
+Calculator made with html & javascript.
+
+You can access the page here >> [click here]()
